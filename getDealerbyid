@@ -1,0 +1,2 @@
+theia@theia-mbntbs:/home/project$ curl -X GET "https://mbntbs-3030.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/fetchDealer/45"
+[{"_id":"6a8cdf2d09da58d49b15db32","id":45,"city":"Norfolk","state":"Virginia","address":"283 Mockingbird Plaza","zip":"23509","lat":"36.8787","long":"-76.2604","short_name":"Konklux","full_name":"Konklux Car Dealership","__v":0}]

@@ -1,0 +1,5 @@
+cat > getdealerreviews << 'EOF'
+curl -X GET "https://mbntbs-3030.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/fetchReviews/dealer/45"
+
+[{"_id":"6a8cdf2e09da58d49b15db46","id":14,"name":"Mildred Penhale","dealership":45,"review":"Customer-focused responsive moderator","purchase":true,"purchase_date":"09/17/2020","car_make":"Alfa Romeo","car_model":"Spider","car_year":1994,"__v":0},{"_id":"6a8cdf2e09da58d49b15db49","id":17,"name":"Bradley Summerell","dealership":45,"review":"Distributed intermediate methodology","purchase":false,"purchase_date":"01/13/2021","car_make":"BMW","car_model":"Z3","car_year":2001,"__v":0},{"_id":"6a8cdf2e09da58d49b15db4e","id":22,"name":"Raphael Hicks","dealership":45,"review":"Universal real-time archive","purchase":false,"purchase_date":"05/01/2020","car_make":"Mitsubishi","car_model":"Endeavor","car_year":2004,"__v":0}]
+EOF
